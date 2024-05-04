@@ -38,6 +38,8 @@ body {
 }
 
 .cabecalho .menu li a {
+    background: #28282859;
+    border-radius: 50px;
     font-size: 20px;
     text-transform: capitalize;
     padding: 10px 20px;
@@ -45,14 +47,14 @@ body {
 }
 
 .cabecalho .menu li a:hover {
-    background-color: #949494;
+    background-color: #94949467;
     color: #fff;
     border-radius: 50px;
 }
 
 .home {
     display: flex;
-    min-height: calc(100vh - 125px);
+    min-height: calc(50vh - 125px);
     align-items: center;
     gap: 50px;
     justify-content: space-between;
@@ -69,13 +71,13 @@ body {
 
 .home .informacoes h1 {
     font-family: "Raleway", sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 .home .informacoes p {
     font-family: "Raleway", sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -91,7 +93,7 @@ body {
     height: 50px;
     padding: 10px;
     text-align: center;
-    font-size: 26px;
+    font-size: 25px;
     transition: 0.3s;
 }
 
@@ -124,7 +126,7 @@ body {
 }
 
 .projetos {
-    padding: 70px 0;
+    padding: 60px 0;
 }
 
 .projetos .titulo {
@@ -161,7 +163,7 @@ body {
 .projetos .projeto h3 {
     background-color: black;
     width: 100%;
-    padding-left: 20px;
+    padding-left: 12px;
     padding-bottom: 10px;
     padding-top: 10px;
     position: absolute;
@@ -208,18 +210,4 @@ body {
 
 .projetos .btn-mostrar-projetos.remover {
     display: none;
-}
-
-@keyframes gradient-animation {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
 }
